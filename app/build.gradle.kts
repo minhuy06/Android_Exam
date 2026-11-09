@@ -7,6 +7,9 @@ android {
     compileSdk {
         version = release(37)
     }
+    buildFeatures{
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId = "vn.udn.ute.week08.s2415053122117"
